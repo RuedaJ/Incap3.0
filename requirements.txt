@@ -8,3 +8,4 @@ pyyaml
 pyogrio
 rtree
 matplotlib>=3.7
+scipy
