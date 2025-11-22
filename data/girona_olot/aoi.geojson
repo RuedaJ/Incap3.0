@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"site": "girona_olot"}, "geometry": {"type": "Polygon", "coordinates": [[[2.44, 42.1875], [2.5, 42.1875], [2.5, 42.2325], [2.44, 42.2325], [2.44, 42.1875]]]}}]}
