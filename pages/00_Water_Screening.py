@@ -5,7 +5,7 @@ import numpy as np
 import tempfile, os, yaml
 
 from core.io_utils import load_points
-from core.raster_ops import sample_raster_at_points, extract_elevation, slope_percent_3x3
+from core.raster_ops import sample_raster_at_points
 from core.land_cover import CLC_NAMES, WATER_BODIES, WETLANDS
 
 # -----------------------------
@@ -30,7 +30,7 @@ def analyze(gdf, dem, awc, clc, slope=None):
         slope_vals = [slope_percent_3x3(dem, geom.x, geom.y) for geom in gdf.geometry]
 
     # elevation
-    elevs = [extract_elevation(dem, geom.x, geom.y) for geom in gdf.geometry]
+    elevs = sample_raster_at_points(gdf, dem)
 
     # awc + clc
     awc_vals = sample_raster_at_points(gdf, awc)
