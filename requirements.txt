@@ -1,0 +1,10 @@
+streamlit
+pandas
+geopandas
+rasterio
+numpy
+pyproj
+pyyaml
+pyogrio
+rtree
+matplotlib>=3.7
