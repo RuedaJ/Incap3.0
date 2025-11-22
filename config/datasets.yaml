@@ -1,1 +1,22 @@
-
+dem:
+  path: data/PNOA_MDT05.tif
+  crs: EPSG:25830
+awc:
+  path: data/AWC_eu23.tif
+  crs: EPSG:3035
+clc2018:
+  path: data/CLC2018.tif
+  crs: EPSG:3035
+sites:
+  girona_olot:
+    aoi: data/girona_olot/aoi.geojson
+    dem: data/girona_olot/dem.tif
+    awc: data/girona_olot/awc.tif
+    clc: data/girona_olot/clc.tif
+    sample_points: data/girona_olot/sample_points.csv
+  girona_lescala:
+    aoi: data/girona_lescala/aoi.geojson
+    dem: data/girona_lescala/dem.tif
+    awc: data/girona_lescala/awc.tif
+    clc: data/girona_lescala/clc.tif
+    sample_points: data/girona_lescala/sample_points.csv
