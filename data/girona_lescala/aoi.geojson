@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"site": "girona_lescala"}, "geometry": {"type": "Polygon", "coordinates": [[[3.1, 42.0875], [3.16, 42.0875], [3.16, 42.1325], [3.1, 42.1325], [3.1, 42.0875]]]}}]}
